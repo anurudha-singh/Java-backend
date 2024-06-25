@@ -3,7 +3,7 @@
  */
 public class Main extends Object {//Either you write it or not but every class in java inherits the object class becuase it is the superclass of all the class that we creates
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
         // System.out.println("Hello world");
         // int number=1_00_000;
         // System.out.println(number);//100000 better readibility with the help of underscores
@@ -37,5 +37,6 @@ FunInterface funObj=(a,b)->a+b;
 int result= funObj.add(10,20);
 System.out.println("Addition of two numbers is ::"+result);
 new Calc().divide();
+//TODO :: Implement Thread programs using Thread class and Runnable interface(also include anonymous class and lamda expression)
 }
 }

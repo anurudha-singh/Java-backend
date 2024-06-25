@@ -13,3 +13,7 @@
 
 // Lamda expressions only works with the Functional Interface because it contains only one method and lamda expression knows which method to implement.
 
+// Generics help us to remove the runtime error.
+
+//TreeSet gives you the sorted value
+
