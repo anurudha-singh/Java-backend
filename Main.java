@@ -21,9 +21,20 @@ public class Main extends Object {//Either you write it or not but every class i
 //     obj3.run();
 // // obj3.stop(); // cause an error becuase stop is not defined inside the interface A
 // obj4.stop()    ;
-Laptop lap=Laptop.Macbook;
-System.out.println("Macbook price before::"+lap.getPrice()+"$");
-lap.setPrice(5000);
-System.out.println("Macbook price after::"+lap.getPrice()+"$");
+// Laptop lap=Laptop.Macbook;
+// System.out.println("Macbook price before::"+lap.getPrice()+"$");
+// lap.setPrice(5000);
+// System.out.println("Macbook price after::"+lap.getPrice()+"$");
+// FunInterface funObj=new FunInterface() { //Anonymous Inner Class
+//     @Override
+//     public int add(int a, int b) {
+//         return a+b;
+//     }
+    
+// };
+FunInterface funObj=(a,b)->a+b;    
+
+int result= funObj.add(10,20);
+System.out.println("Addition of two numbers is ::"+result);
 }
 }
