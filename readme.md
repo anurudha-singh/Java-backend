@@ -6,3 +6,5 @@
 
 // Every method inside the interface is public abstract by default
 // All the variables inside the interface is by default static and final
+
+// switch also supports enums!!! 
