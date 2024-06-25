@@ -12,10 +12,14 @@ public class HelloWorld extends Object {//Either you write it or not but every c
     //         System.out.println(i++);
     //     }
     Scope obj=new Scope();
-    System.out.println(obj.num);
+    // System.out.println(obj.num);
     Scope obj2=new Scope();
-    obj2.num=20;
-    System.out.println(obj2.num);
-
-    }
+    // obj2.num=20;
+    // System.out.println(obj2.num);
+    A obj3=new Scope();
+    B obj4=new Scope();
+    obj3.run();
+// obj3.stop(); // cause an error becuase stop is not defined inside the interface A
+obj4.stop()    ;
+}
 }
