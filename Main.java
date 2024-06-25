@@ -36,5 +36,6 @@ FunInterface funObj=(a,b)->a+b;
 
 int result= funObj.add(10,20);
 System.out.println("Addition of two numbers is ::"+result);
+new Calc().divide();
 }
 }
