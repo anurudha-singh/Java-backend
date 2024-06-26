@@ -17,3 +17,13 @@
 
 //TreeSet gives you the sorted value
 // Don't implement the parallel stream with sort method
+
+//JDBC connection steps:-
+1. import the package
+2. (a) load
+   (b) register
+3. Establish the connection
+4. Create the statement
+5. Execute the query
+6. Process reset
+7. close the connections and resources 
