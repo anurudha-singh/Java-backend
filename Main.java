@@ -52,6 +52,7 @@ public class Main extends Object {//Either you write it or not but every class i
         // System.out.println("Addition: " + resultAdd); // Output: Addition: 15
         // System.out.println("Subtraction: " + resultSubtract); // Output: Subtraction: 5
         // System.out.println("Multiplication: " + resultMultiply); // Output: Multiplication: 50
-        FunctionCompositionExample.showFunctionalComposition();
+        // FunctionCompositionExample.showFunctionalComposition();
+        FilterMapExample.showFilterMapWorking();
 }
 }
