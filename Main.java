@@ -1,3 +1,5 @@
+import java.util.function.IntBinaryOperator;
+
 /**
  * HelloWorld
  */
@@ -32,11 +34,23 @@ public class Main extends Object {//Either you write it or not but every class i
 //     }
     
 // };
-FunInterface funObj=(a,b)->a+b;    
+// FunInterface funObj=(a,b)->a+b;    
 
-int result= funObj.add(10,20);
-System.out.println("Addition of two numbers is ::"+result);
-new Calc().divide();
+// int result= funObj.add(10,20);
+// System.out.println("Addition of two numbers is ::"+result);
+// new Calc().divide();
 //TODO :: Implement Thread programs using Thread class and Runnable interface(also include anonymous class and lamda expression)
+        IntBinaryOperator add = (a, b) -> a + b;
+        IntBinaryOperator subtract = (a, b) -> a - b;
+        IntBinaryOperator multiply = (a, b) -> a * b;
+        int x = 10;
+        int y = 5;
+        // Using Higher-Order Function to perform different operations
+        int resultAdd = HigherOrderFunctionExample.applyOperation(x, y, add);
+        int resultSubtract = HigherOrderFunctionExample.applyOperation(x, y, subtract);
+        int resultMultiply = HigherOrderFunctionExample.applyOperation(x, y, multiply);
+        System.out.println("Addition: " + resultAdd); // Output: Addition: 15
+        System.out.println("Subtraction: " + resultSubtract); // Output: Subtraction: 5
+        System.out.println("Multiplication: " + resultMultiply); // Output: Multiplication: 50
 }
 }
