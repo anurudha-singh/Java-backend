@@ -18,7 +18,7 @@
 //TreeSet gives you the sorted value
 // Don't implement the parallel stream with sort method
 
-//JDBC connection steps:-
+## JDBC connection steps:-
 1. import the package
 2. (a) load
    (b) register
@@ -27,3 +27,11 @@
 5. Execute the query
 6. Process reset
 7. close the connections and resources 
+
+## Java resources
+
+## How to Install and Configure JDBC with MySQL also Create Database in VS Code 
+`https://medium.com/@rahulkumarverma9198/how-to-install-and-configure-jdbc-with-mysql-also-create-database-in-vs-code-0e41ae93ca75`
+
+## Complete Java, Spring, and Microservices course
+`https://www.youtube.com/watch?v=4XTsAAHW_Tc&t=42342s`
