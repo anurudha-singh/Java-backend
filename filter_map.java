@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 // import java.util.stream.Stream;
@@ -11,15 +12,30 @@ class FilterMapExample {
     // };
     static Predicate <Integer> p=(t)-> t%2==0;
 
+    // static Function<String, Integer> f=new Function<String,Integer>(){
+
+    //     @Override
+    //     public Integer apply(String t) {
+            
+    //       return Integer.valueOf(t);
+    //     }
+
+    // };
+    
+    static Function<String, Integer> f=(t) ->Integer.valueOf(t); //We have used lamda function here because "Function" is a functional interface
+      
+
+
     static void showFilterMapWorking(){
         List<String> numbers = Arrays.asList("1", "2", "3", "4", "5", "6");
         System.out.println("original list: " + numbers);
         List<Integer> even = numbers.stream()
-                                    .map(s -> Integer.valueOf(s))
+                                    .map(f)
                                     .filter(p)
                                     .collect(Collectors.toList());
       
         System.out.println("processed list, only even numbers: " + even);
        }
     }
+
 

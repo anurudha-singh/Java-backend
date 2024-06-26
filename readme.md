@@ -16,4 +16,4 @@
 // Generics help us to remove the runtime error.
 
 //TreeSet gives you the sorted value
-
+// Don't implement the parallel stream with sort method
