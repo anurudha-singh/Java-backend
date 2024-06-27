@@ -35,3 +35,14 @@
 
 ## Complete Java, Spring, and Microservices course
 `https://www.youtube.com/watch?v=4XTsAAHW_Tc&t=42342s`
+
+## commonly used methods are:
+
+## boolean execute(String sql):
+ executes a general SQL statement. It returns true if the query returns a ResultSet, false if the query returns an update count or returns nothing. This method can be used with a Statement only.
+
+## int executeUpdate(String sql):
+executes an INSERT, UPDATE or DELETE statement and returns an update account indicating number of rows affected (e.g. 1 row inserted, or 2 rows updated, or 0 rows affected).
+
+## ResultSet executeQuery(String sql):
+executes a SELECT statement and returns a ResultSet object which contains results returned by the query.
