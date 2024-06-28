@@ -1,7 +1,5 @@
 package com.example.hibernate_tutorial;
-
 import static org.junit.Assert.assertTrue;
-
 import org.junit.Test;
 
 /**
